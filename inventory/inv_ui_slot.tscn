@@ -1,0 +1,43 @@
+[gd_scene load_steps=3 format=3 uid="uid://bpt8bqfjei4a2"]
+
+[ext_resource type="Script" path="res://inventory/inv_ui_slot.gd" id="1_4gj2e"]
+[ext_resource type="Texture2D" uid="uid://bxynbox3ro45g" path="res://artwork/Иконка для предметов_64.png" id="1_kpdj2"]
+
+[node name="inv_UI_slot" type="Panel"]
+self_modulate = Color(1, 1, 1, 0)
+custom_minimum_size = Vector2(64, 64)
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -168.0
+offset_top = -168.0
+offset_right = -1256.0
+offset_bottom = -752.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_4gj2e")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_kpdj2")
+centered = false
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 0
+offset_right = 64.0
+offset_bottom = 64.0
+
+[node name="Panel" type="Panel" parent="CenterContainer"]
+layout_mode = 2
+
+[node name="item_display" type="Sprite2D" parent="CenterContainer/Panel"]
+scale = Vector2(2, 2)
+
+[node name="Label" type="Label" parent="CenterContainer/Panel"]
+custom_minimum_size = Vector2(21, 23)
+layout_mode = 0
+offset_left = 7.0
+offset_top = 8.0
+offset_right = 28.0
+offset_bottom = 31.0
+text = "99"
+horizontal_alignment = 2

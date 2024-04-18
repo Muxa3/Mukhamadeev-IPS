@@ -1,0 +1,126 @@
+[gd_scene load_steps=21 format=3 uid="uid://mxo1g0lc50jf"]
+
+[ext_resource type="Script" path="res://player/player.gd" id="1_cnpyb"]
+[ext_resource type="Texture2D" uid="uid://m0x715turrui" path="res://artwork/Player/Untitled 02-01-2024 12-44-43 (1).png" id="2_qvnrr"]
+[ext_resource type="Texture2D" uid="uid://dhowsutonxh4x" path="res://artwork/Player/Untitled 02-01-2024 12-44-43 (2).png" id="3_nkgsg"]
+[ext_resource type="Texture2D" uid="uid://b85ak2bym403l" path="res://artwork/Player/Untitled 02-01-2024 12-44-43 (3).png" id="4_euikp"]
+[ext_resource type="Texture2D" uid="uid://ddc7vv8bqgyg2" path="res://artwork/Player/Untitled 02-01-2024 12-44-43.png" id="5_3bfue"]
+[ext_resource type="Texture2D" uid="uid://c5r8xr0x42yko" path="res://artwork/Player/Untitled 02-10-2024 12-01-54 (1).png" id="6_4rfge"]
+[ext_resource type="Texture2D" uid="uid://rv2cuy3w12kg" path="res://artwork/Player/Untitled 02-10-2024 12-01-54 (2).png" id="7_d8o54"]
+[ext_resource type="Texture2D" uid="uid://he6mqturrqre" path="res://artwork/Player/Untitled 02-10-2024 12-01-54 (3).png" id="8_xagqr"]
+[ext_resource type="Texture2D" uid="uid://dugj18ibl7sip" path="res://artwork/Player/Untitled 02-10-2024 12-01-54.png" id="9_30n1i"]
+[ext_resource type="Texture2D" uid="uid://cqfaffjf322ee" path="res://artwork/Player/Untitled 02-02-2024 05-11-41 (1).png" id="10_or0hb"]
+[ext_resource type="Texture2D" uid="uid://dc648wq53x7od" path="res://artwork/Player/Untitled 02-02-2024 05-11-41 (2).png" id="11_up3nc"]
+[ext_resource type="Texture2D" uid="uid://j0h1k27suxbd" path="res://artwork/Player/Untitled 02-02-2024 05-11-41 (3).png" id="12_6p7j7"]
+[ext_resource type="Texture2D" uid="uid://bvt2tu6ilqwde" path="res://artwork/Player/Untitled 02-02-2024 05-11-41.png" id="13_1tiab"]
+[ext_resource type="Texture2D" uid="uid://jrwpyo58g24p" path="res://artwork/Player/Untitled 02-02-2024 03-52-55 (1).png" id="14_rgda7"]
+[ext_resource type="Texture2D" uid="uid://dbbadnbglkmdq" path="res://artwork/Player/Untitled 02-02-2024 03-52-55 (2).png" id="15_aj2i7"]
+[ext_resource type="Texture2D" uid="uid://dejeu4ud5aw5i" path="res://artwork/Player/Untitled 02-02-2024 03-52-55 (3).png" id="16_0vo6n"]
+[ext_resource type="Texture2D" uid="uid://cj2jh6uaxaq5i" path="res://artwork/Player/Untitled 02-02-2024 03-52-55.png" id="17_ug65p"]
+[ext_resource type="PackedScene" uid="uid://df4owqfs6lbkb" path="res://inventory/inv_ui.tscn" id="18_3rvpl"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_4yxqn"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("2_qvnrr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("3_nkgsg")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_euikp")
+}, {
+"duration": 1.0,
+"texture": ExtResource("5_3bfue")
+}],
+"loop": true,
+"name": &"down_walk",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_nkgsg")
+}],
+"loop": true,
+"name": &"idle",
+"speed": 0.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("6_4rfge")
+}, {
+"duration": 1.0,
+"texture": ExtResource("7_d8o54")
+}, {
+"duration": 1.0,
+"texture": ExtResource("8_xagqr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("9_30n1i")
+}],
+"loop": true,
+"name": &"left_walk",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("10_or0hb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("11_up3nc")
+}, {
+"duration": 1.0,
+"texture": ExtResource("12_6p7j7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("13_1tiab")
+}],
+"loop": true,
+"name": &"right_walk",
+"speed": 4.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("14_rgda7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("15_aj2i7")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_0vo6n")
+}, {
+"duration": 1.0,
+"texture": ExtResource("17_ug65p")
+}],
+"loop": true,
+"name": &"up_walk",
+"speed": 4.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_h4y5g"]
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+position = Vector2(1140, 772)
+scale = Vector2(0.2, 0.2)
+script = ExtResource("1_cnpyb")
+metadata/_edit_group_ = true
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+scale = Vector2(0.25, 0.25)
+sprite_frames = SubResource("SpriteFrames_4yxqn")
+animation = &"idle"
+
+[node name="Camera2D" type="Camera2D" parent="."]
+zoom = Vector2(2.5, 2.5)
+position_smoothing_speed = 8.0
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_h4y5g")
+
+[node name="Inv_UI" parent="." instance=ExtResource("18_3rvpl")]
+custom_minimum_size = Vector2(380, 300)
+offset_left = -1440.0
+offset_top = -810.0
+offset_right = -1060.0
+offset_bottom = -510.0

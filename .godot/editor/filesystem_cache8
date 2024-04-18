@@ -1,0 +1,165 @@
+ea4bc82a6ad023ab7ee23ee620429895
+::res://::1713425104
+apple_collectable.gd::GDScript::-1::1713401060::0::1::::<>StaticBody2D<>::
+apple_collectable.tscn::PackedScene::7238650019592376597::1713402736::0::1::::<><>::uid://b2boaw47lt8x1::::res://artwork/apple-icon.png<>res://apple_collectable.gd
+apple_tree.gd::GDScript::-1::1713425018::0::1::::<>Node2D<>::
+apple_tree.tscn::PackedScene::7228816759704682441::1713399614::0::1::::<><>::res://apple_tree.gd<>uid://co12s2ci1d11x::::res://artwork/survivalgame-appletree.png
+inventory.gd::GDScript::-1::1713420744::0::1::::Inv<>Resource<>::
+Inv_slot.gd::GDScript::-1::1713419508::0::1::::InvSlot<>Resource<>::
+::res://addons/::1713424833
+::res://addons/gaea/::1713424833
+grid.gd::GDScript::-1::1708695618::0::1::::GaeaGrid<>Resource<>::
+plugin.cfg::TextFile::-1::1708695618::0::1::::<><>::
+plugin.gd::GDScript::-1::1708695618::0::1::::<>EditorPlugin<>::
+::res://addons/gaea/editor/::1713424833
+clear.svg::CompressedTexture2D::5078786316858368456::1708695618::1713418612::1::::<><>::
+download_update_panel.gd::GDScript::-1::1708695618::0::1::::<>Control<>::
+download_update_panel.tscn::PackedScene::2207553941160856703::1708695618::0::1::::<><>::uid://b4nwpbrra72fj::::res://addons/gaea/editor/logo.png<>res://addons/gaea/editor/download_update_panel.gd
+generator_buttons.gd::GDScript::-1::1708695618::0::1::::<>EditorProperty<>::
+inspector_plugin.gd::GDScript::-1::1708695618::0::1::::<>EditorInspectorPlugin<>::
+logo.png::CompressedTexture2D::4450096700306969471::1708695618::1711631832::1::::<><>::
+reload.svg::CompressedTexture2D::7636415239406091336::1708695618::1713418612::1::::<><>::
+threshold_visualizer.gd::GDScript::-1::1708695618::0::1::::<>TextureRect<>::
+update_button.gd::GDScript::-1::1708695618::0::1::::<>Button<>::
+update_button.tscn::PackedScene::1924680899962474071::1708695618::0::1::::<><>::res://addons/gaea/editor/update_button.gd<>uid://6pmddcctde0v::::res://addons/gaea/editor/download_update_panel.tscn
+::res://addons/gaea/generators/::1713424833
+chunk_aware_generator.svg::CompressedTexture2D::4399251370745892222::1708695618::1713418612::1::::<><>::
+generator.gd::GDScript::-1::1708695618::0::1::::GaeaGenerator<>Node<>res://addons/gaea/generators/generator.svg::
+generator.svg::CompressedTexture2D::7556607453030425742::1708695618::1713418612::1::::<><>::
+generator_settings.svg::CompressedTexture2D::5890473717961004425::1708695618::1713418612::1::::<><>::
+::res://addons/gaea/generators/2D/::1713424833
+chunk_aware_generator_2d.gd::GDScript::-1::1708695618::0::1::::ChunkAwareGenerator2D<>GaeaGenerator2D<>res://addons/gaea/generators/chunk_aware_generator.svg::
+generator_2d.gd::GDScript::-1::1708695618::0::1::::GaeaGenerator2D<>GaeaGenerator<>::
+generator_settings_2d.gd::GDScript::-1::1708695618::0::1::::GeneratorSettings2D<>Resource<>res://addons/gaea/generators/generator_settings.svg::
+grid_2d.gd::GDScript::-1::1708695618::0::1::::GaeaGrid2D<>GaeaGrid<>::
+::res://addons/gaea/generators/2D/cellular_generator/::1713424833
+cellular_generator.gd::GDScript::-1::1708695618::0::1::::CellularGenerator<>GaeaGenerator2D<>res://addons/gaea/generators/2D/cellular_generator/cellular_generator.svg::
+cellular_generator.svg::CompressedTexture2D::2489972738627251148::1708695618::1713418612::1::::<><>::
+cellular_generator_settings.gd::GDScript::-1::1708695618::0::1::::CellularGeneratorSettings<>GeneratorSettings2D<>::
+::res://addons/gaea/generators/2D/heightmap_generator/::1713424833
+heightmap_generator_2d.gd::GDScript::-1::1708695618::0::1::::HeightmapGenerator2D<>ChunkAwareGenerator2D<>res://addons/gaea/generators/2D/heightmap_generator/heightmap_generator_2d.svg::
+heightmap_generator_2d.svg::CompressedTexture2D::7804342115597507298::1708695618::1713418612::1::::<><>::
+heightmap_generator_2d_settings.gd::GDScript::-1::1708695618::0::1::::HeightmapGenerator2DSettings<>GeneratorSettings2D<>::
+::res://addons/gaea/generators/2D/noise_generator/::1713424833
+noise_generator.gd::GDScript::-1::1708695618::0::1::::NoiseGenerator<>ChunkAwareGenerator2D<>res://addons/gaea/generators/2D/noise_generator/noise_generator.svg::
+noise_generator.svg::CompressedTexture2D::1200808923553916311::1708695618::1713418612::1::::<><>::
+noise_generator_data.gd::GDScript::-1::1708695618::0::1::::NoiseGeneratorData<>Resource<>::
+noise_generator_settings.gd::GDScript::-1::1708695618::0::1::::NoiseGeneratorSettings<>GeneratorSettings2D<>::
+::res://addons/gaea/generators/2D/walker_generator/::1713424833
+walker_generator.gd::GDScript::-1::1708695618::0::1::::WalkerGenerator<>GaeaGenerator2D<>res://addons/gaea/generators/2D/walker_generator/walker_generator.svg::
+walker_generator.svg::CompressedTexture2D::4794092832639402112::1708695618::1713418612::1::::<><>::
+walker_generator_settings.gd::GDScript::-1::1708695618::0::1::::WalkerGeneratorSettings<>GeneratorSettings2D<>::
+::res://addons/gaea/generators/2D/wave_function_generator/::1713424833
+wave_function_2d_entry.gd::GDScript::-1::1708695618::0::1::::WaveFunction2DEntry<>Resource<>::
+wave_function_generator.svg::CompressedTexture2D::5086903406018483302::1708695618::1713418612::1::::<><>::
+wave_function_generator_2d.gd::GDScript::-1::1708695618::0::1::::WaveFunctionGenerator2D<>GaeaGenerator2D<>res://addons/gaea/generators/2D/wave_function_generator/wave_function_generator.svg::
+wave_function_generator_2d_settings.gd::GDScript::-1::1708695618::0::1::::WaveFunctionGenerator2DSettings<>GeneratorSettings2D<>::
+::res://addons/gaea/generators/3D/::1713424833
+chunk_aware_generator_3d.gd::GDScript::-1::1708695618::0::1::::ChunkAwareGenerator3D<>GaeaGenerator3D<>res://addons/gaea/generators/chunk_aware_generator.svg::
+generator_3d.gd::GDScript::-1::1708695618::0::1::::GaeaGenerator3D<>GaeaGenerator<>::
+generator_settings_3d.gd::GDScript::-1::1708695618::0::1::::GeneratorSettings3D<>Resource<>res://addons/gaea/generators/generator_settings.svg::
+grid_3d.gd::GDScript::-1::1708695618::0::1::::GaeaGrid3D<>GaeaGrid<>::
+::res://addons/gaea/generators/3D/heightmap_generator_3d/::1713424833
+heightmap_generator_3d.gd::GDScript::-1::1708695618::0::1::::HeightmapGenerator3D<>ChunkAwareGenerator3D<>::
+heightmap_generator_3d_settings.gd::GDScript::-1::1708695618::0::1::::HeightmapGenerator3DSettings<>GeneratorSettings3D<>::
+::res://addons/gaea/modifiers/::1713424833
+modifier.gd::GDScript::-1::1708695618::0::1::::Modifier<>Resource<>::
+::res://addons/gaea/modifiers/2D/::1713424833
+carver.gd::GDScript::-1::1708695618::0::1::::Carver<>ChunkAwareModifier2D<>res://addons/gaea/modifiers/2D/carver.svg::
+carver.svg::CompressedTexture2D::4945928142008460813::1708695618::1713418612::1::::<><>::
+chunk_aware_modifier_2d.gd::GDScript::-1::1708695618::0::1::::ChunkAwareModifier2D<>Modifier2D<>::
+fill.gd::GDScript::-1::1708695618::0::1::::Fill<>Modifier2D<>res://addons/gaea/modifiers/2D/fill.svg::
+fill.svg::CompressedTexture2D::7671019854211040928::1708695618::1713418612::1::::<><>::
+generate_borders.gd::GDScript::-1::1708695618::0::1::::GenerateBorder<>Modifier2D<>res://addons/gaea/modifiers/2D/generate_borders.svg::
+generate_borders.svg::CompressedTexture2D::3001633644813359387::1708695618::1713418612::1::::<><>::
+heightmap_painter.gd::GDScript::-1::1708695618::0::1::::HeightmapPainter<>ChunkAwareModifier2D<>res://addons/gaea/modifiers/2D/heightmap_painter.svg::
+heightmap_painter.svg::CompressedTexture2D::5862644644777660778::1708695618::1713418612::1::::<><>::
+modifier_2d.gd::GDScript::-1::1708695618::0::1::::Modifier2D<>Modifier<>::
+noise_painter.gd::GDScript::-1::1708695618::0::1::::NoisePainter<>ChunkAwareModifier2D<>res://addons/gaea/modifiers/2D/noise_painter.svg::
+noise_painter.svg::CompressedTexture2D::4747628266027079917::1708695618::1713418612::1::::<><>::
+remove_disconnected.gd::GDScript::-1::1708695618::0::1::::RemoveDisconnected<>Modifier2D<>res://addons/gaea/modifiers/2D/remove_disconnected.svg::
+remove_disconnected.svg::CompressedTexture2D::5791280309195908563::1708695618::1713418612::1::::<><>::
+smooth.gd::GDScript::-1::1708695618::0::1::::Smooth<>Modifier2D<>res://addons/gaea/modifiers/2D/smooth.svg::
+smooth.svg::CompressedTexture2D::2288248261623337922::1708695618::1713418612::1::::<><>::
+walls.gd::GDScript::-1::1708695618::0::1::::Walls<>Modifier2D<>res://addons/gaea/modifiers/2D/walls.svg::
+walls.svg::CompressedTexture2D::591478033430735677::1708695618::1713418612::1::::<><>::
+::res://addons/gaea/modifiers/3D/::1713424833
+carver_3d.gd::GDScript::-1::1708695618::0::1::::Carver3D<>ChunkAwareModifier3D<>res://addons/gaea/modifiers/2D/carver.svg::
+chunk_aware_modifier_3d.gd::GDScript::-1::1708695618::0::1::::ChunkAwareModifier3D<>Modifier3D<>::
+heightmap_painter_3d.gd::GDScript::-1::1708695618::0::1::::HeightmapPainter3D<>ChunkAwareModifier3D<>res://addons/gaea/modifiers/2D/heightmap_painter.svg::
+modifier_3d.gd::GDScript::-1::1708695618::0::1::::Modifier3D<>Modifier<>::
+noise_painter_3d.gd::GDScript::-1::1708695618::0::1::::NoisePainter3D<>ChunkAwareModifier3D<>res://addons/gaea/modifiers/3D/noise_painter.svg::
+::res://addons/gaea/others/::1713424833
+chunk_loader.svg::CompressedTexture2D::286339547622317856::1708695618::1713418612::1::::<><>::
+chunk_loader_2d.gd::GDScript::-1::1708695618::0::1::::ChunkLoader2D<>Node2D<>res://addons/gaea/others/chunk_loader.svg::
+chunk_loader_3d.gd::GDScript::-1::1708695618::0::1::::ChunkLoader3D<>Node3D<>res://addons/gaea/others/chunk_loader.svg::
+falloff_map.gd::GDScript::-1::1708695618::0::1::::FalloffMap<>Resource<>::
+::res://addons/gaea/renderers/::1713424833
+gaea_renderer.gd::GDScript::-1::1708695618::0::1::::GaeaRenderer<>Node<>res://addons/gaea/renderers/gaea_renderer.svg::
+gaea_renderer.svg::CompressedTexture2D::7750084002812481298::1708695618::1713418612::1::::<><>::
+::res://addons/gaea/renderers/2D/::1713424833
+gaea_renderer_2d.gd::GDScript::-1::1708695618::0::1::::GaeaRenderer2D<>GaeaRenderer<>::
+tilemap_gaea_renderer.gd::GDScript::-1::1708695618::0::1::::TilemapGaeaRenderer<>GaeaRenderer2D<>::
+::res://addons/gaea/renderers/3D/::1713424833
+gaea_renderer_3d.gd::GDScript::-1::1708695618::0::1::::GaeaRenderer3D<>GaeaRenderer<>::
+gridmap_gaea_renderer.gd::GDScript::-1::1708695618::0::1::::GridmapGaeaRenderer<>GaeaRenderer3D<>::
+::res://addons/gaea/tile_info/::1713424833
+gridmap_tile_info.gd::GDScript::-1::1708695618::0::1::::GridmapTileInfo<>TileInfo<>::
+random_tile_info.gd::GDScript::-1::1708695618::0::1::::RandomTileInfo<>TileInfo<>::
+tilemap_tile_info.gd::GDScript::-1::1708695618::0::1::::TilemapTileInfo<>TileInfo<>::
+tile_info.gd::GDScript::-1::1708695618::0::1::::TileInfo<>Resource<>res://addons/gaea/tile_info/tile_info.svg::
+tile_info.svg::CompressedTexture2D::2363771520064696099::1708695618::1713418612::1::::<><>::
+::res://artwork/::1713424833
+apple-icon.png::CompressedTexture2D::4284435079355215924::1713393068::1713397612::1::::<><>::
+ArtForTOPDOWN-GaeaTutorial.png::CompressedTexture2D::1375748635353314102::1711628484::1711631832::1::::<><>::
+bow.png::CompressedTexture2D::2080892872856167497::1713393054::1713397612::1::::<><>::
+Human-Worker-Red.png::CompressedTexture2D::3709373878663415992::1713393114::1713397612::1::::<><>::
+single_tile_tileset.png::CompressedTexture2D::847707083976398243::1658514508::1713397612::1::::<><>::
+slime-icon.png::CompressedTexture2D::4853902064952202812::1713393068::1713397612::1::::<><>::
+SlimeIcon.png::CompressedTexture2D::1767777253195578180::1713393110::1713397612::1::::<><>::
+SmokePartical.png::CompressedTexture2D::8556129572836563522::1713393112::1713397612::1::::<><>::
+survivalgame-appletree.png::CompressedTexture2D::5810831924637632043::1713393092::1713397612::1::::<><>::
+survivalgame-enemy-slime.png::CompressedTexture2D::9027981401068302921::1713393106::1713397612::1::::<><>::
+survivalgame-player-green.png::CompressedTexture2D::7048977423362573439::1713393106::1713397612::1::::<><>::
+survivalgame-randomitems.png::CompressedTexture2D::1266008387892249846::1713393094::1713397612::1::::<><>::
+survivalgame-terrian-cliffs.png::CompressedTexture2D::6790432017018654566::1713393096::1713397612::1::::<><>::
+survivalgame-terrian-defult.png::CompressedTexture2D::6968061470170570522::1713393098::1713397612::1::::<><>::
+survivalgame-terrian-water.png::CompressedTexture2D::6739906877161117994::1713393106::1713397612::1::::<><>::
+survivalgame-trees.png::CompressedTexture2D::2801246142912883417::1713393106::1713397612::1::::<><>::
+Иконка для предметов.png::CompressedTexture2D::2116646249085510927::1709725636::1713403004::1::::<><>::
+Иконка для предметов_64.png::CompressedTexture2D::4051101032318047414::1709725614::1713403004::1::::<><>::
+Инвентарь_Ui_5x4.png::CompressedTexture2D::4510433161274191075::1709725512::1713403098::1::::<><>::
+Инвентарь_Ui_5x4_FULL(360x300).png::CompressedTexture2D::7462683619161850908::1709727220::1713403098::1::::<><>::
+Инвентарь_Ui_5x4_FULL(1080x900).png::CompressedTexture2D::7633226303821861512::1709727246::1713403098::1::::<><>::
+::res://artwork/Player/::1713424833
+Untitled 02-01-2024 12-44-43 (1).png::CompressedTexture2D::895330616588392860::1707584286::1713397612::1::::<><>::
+Untitled 02-01-2024 12-44-43 (2).png::CompressedTexture2D::7680854243706185237::1707584294::1713397612::1::::<><>::
+Untitled 02-01-2024 12-44-43 (3).png::CompressedTexture2D::4764603135091926159::1707584302::1713397612::1::::<><>::
+Untitled 02-01-2024 12-44-43.png::CompressedTexture2D::7375938936978028887::1707584280::1713397612::1::::<><>::
+Untitled 02-02-2024 03-52-55 (1).png::CompressedTexture2D::668157858905838421::1707584228::1713397612::1::::<><>::
+Untitled 02-02-2024 03-52-55 (2).png::CompressedTexture2D::7231521314489185574::1707584238::1713397612::1::::<><>::
+Untitled 02-02-2024 03-52-55 (3).png::CompressedTexture2D::7458876963516799772::1707584248::1713397612::1::::<><>::
+Untitled 02-02-2024 03-52-55.png::CompressedTexture2D::5460839772131038004::1707584220::1713397612::1::::<><>::
+Untitled 02-02-2024 05-11-41 (1).png::CompressedTexture2D::5906193960120221168::1707584136::1713397612::1::::<><>::
+Untitled 02-02-2024 05-11-41 (2).png::CompressedTexture2D::7365456354352305431::1707584176::1713397612::1::::<><>::
+Untitled 02-02-2024 05-11-41 (3).png::CompressedTexture2D::683781054606699393::1707584186::1713397612::1::::<><>::
+Untitled 02-02-2024 05-11-41.png::CompressedTexture2D::3901283965042581682::1707584124::1713397612::1::::<><>::
+Untitled 02-10-2024 12-01-54 (1).png::CompressedTexture2D::6915646764969216394::1707584014::1713397612::1::::<><>::
+Untitled 02-10-2024 12-01-54 (2).png::CompressedTexture2D::1238206293919263734::1707584026::1713397612::1::::<><>::
+Untitled 02-10-2024 12-01-54 (3).png::CompressedTexture2D::501483943442084574::1707584036::1713397612::1::::<><>::
+Untitled 02-10-2024 12-01-54.png::CompressedTexture2D::8576019819631138999::1707584000::1713397612::1::::<><>::
+::res://inventory/::1713424894
+inventory_item.gd::GDScript::-1::1713420772::0::1::::InvItem<>Resource<>::
+Inv_UI.gd::GDScript::-1::1713420772::0::1::::<>Control<>::
+inv_ui.tscn::PackedScene::7570963398459159073::1713423932::0::1::::<><>::res://inventory/Inv_UI.gd<>uid://5fk4b1l1nun4::::res://artwork/Иконка для предметов.png<>uid://bpt8bqfjei4a2::::res://inventory/inv_ui_slot.tscn
+inv_ui_slot.gd::GDScript::-1::1713421460::0::1::::<>Panel<>::
+inv_ui_slot.tscn::PackedScene::3480482810658157295::1713423932::0::1::::<><>::res://inventory/inv_ui_slot.gd<>uid://bxynbox3ro45g::::res://artwork/Иконка для предметов_64.png
+playerinv.tres::Resource/Inv::8212794310896321398::1713424894::0::1::::<><>::res://inventory.gd<>res://Inv_slot.gd
+::res://inventory/items/::1713424833
+apple.tres::Resource/Resource::7807729638265842667::1713401756::0::1::::<><>::res://inventory/inventory_item.gd<>uid://b2boaw47lt8x1::::res://artwork/apple-icon.png
+::res://player/::1713425053
+player.gd::GDScript::-1::1713424894::0::1::::<>CharacterBody2D<>::
+player.tscn::PackedScene::890643634803903179::1713425053::0::1::::<><>::res://player/player.gd<>uid://m0x715turrui::::res://artwork/Player/Untitled 02-01-2024 12-44-43 (1).png<>uid://dhowsutonxh4x::::res://artwork/Player/Untitled 02-01-2024 12-44-43 (2).png<>uid://b85ak2bym403l::::res://artwork/Player/Untitled 02-01-2024 12-44-43 (3).png<>uid://ddc7vv8bqgyg2::::res://artwork/Player/Untitled 02-01-2024 12-44-43.png<>uid://c5r8xr0x42yko::::res://artwork/Player/Untitled 02-10-2024 12-01-54 (1).png<>uid://rv2cuy3w12kg::::res://artwork/Player/Untitled 02-10-2024 12-01-54 (2).png<>uid://he6mqturrqre::::res://artwork/Player/Untitled 02-10-2024 12-01-54 (3).png<>uid://dugj18ibl7sip::::res://artwork/Player/Untitled 02-10-2024 12-01-54.png<>uid://cqfaffjf322ee::::res://artwork/Player/Untitled 02-02-2024 05-11-41 (1).png<>uid://dc648wq53x7od::::res://artwork/Player/Untitled 02-02-2024 05-11-41 (2).png<>uid://j0h1k27suxbd::::res://artwork/Player/Untitled 02-02-2024 05-11-41 (3).png<>uid://bvt2tu6ilqwde::::res://artwork/Player/Untitled 02-02-2024 05-11-41.png<>uid://jrwpyo58g24p::::res://artwork/Player/Untitled 02-02-2024 03-52-55 (1).png<>uid://dbbadnbglkmdq::::res://artwork/Player/Untitled 02-02-2024 03-52-55 (2).png<>uid://dejeu4ud5aw5i::::res://artwork/Player/Untitled 02-02-2024 03-52-55 (3).png<>uid://cj2jh6uaxaq5i::::res://artwork/Player/Untitled 02-02-2024 03-52-55.png<>uid://df4owqfs6lbkb::::res://inventory/inv_ui.tscn
+::res://World-Generation/::1713425053
+Node2D.gd::GDScript::-1::1713424894::0::1::::<>Node2D<>::
+world_generation.tscn::PackedScene::4697764442077179138::1713425052::0::1::::<><>::res://addons/gaea/generators/2D/noise_generator/noise_generator.gd<>res://addons/gaea/others/falloff_map.gd<>res://addons/gaea/generators/2D/noise_generator/noise_generator_settings.gd<>res://addons/gaea/generators/2D/noise_generator/noise_generator_data.gd<>res://addons/gaea/tile_info/tilemap_tile_info.gd<>res://addons/gaea/renderers/2D/tilemap_gaea_renderer.gd<>uid://tuom5fgubh31::::res://artwork/ArtForTOPDOWN-GaeaTutorial.png<>uid://mxo1g0lc50jf::::res://player/player.tscn<>uid://dpalr05i3xxt3::::res://inventory/playerinv.tres<>uid://da8xs5uwp7nc8::::res://apple_tree.tscn<>uid://djiefwm6iqe48::::res://inventory/items/apple.tres
